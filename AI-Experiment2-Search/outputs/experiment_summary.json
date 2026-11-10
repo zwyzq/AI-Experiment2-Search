@@ -1,0 +1,785 @@
+{
+  "problem1": [
+    {
+      "case": "official",
+      "heuristic": "zero",
+      "path_len": 7,
+      "expanded": 17,
+      "generated": 34,
+      "pushed": 18,
+      "path": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          4
+        ]
+      ]
+    },
+    {
+      "case": "official",
+      "heuristic": "manhattan",
+      "path_len": 7,
+      "expanded": 14,
+      "generated": 29,
+      "pushed": 16,
+      "path": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          4
+        ]
+      ]
+    },
+    {
+      "case": "maze_15_seed_ok",
+      "n": 15,
+      "heuristic": "zero",
+      "path_len": 28,
+      "expanded": 168,
+      "generated": 505,
+      "pushed": 171
+    },
+    {
+      "case": "maze_15_seed_ok",
+      "n": 15,
+      "heuristic": "manhattan",
+      "path_len": 28,
+      "expanded": 117,
+      "generated": 364,
+      "pushed": 128
+    },
+    {
+      "case": "maze_21_seed_ok",
+      "n": 21,
+      "heuristic": "zero",
+      "path_len": 40,
+      "expanded": 317,
+      "generated": 894,
+      "pushed": 317
+    },
+    {
+      "case": "maze_21_seed_ok",
+      "n": 21,
+      "heuristic": "manhattan",
+      "path_len": 40,
+      "expanded": 143,
+      "generated": 428,
+      "pushed": 171
+    },
+    {
+      "case": "maze_31_seed_ok",
+      "n": 31,
+      "heuristic": "zero",
+      "path_len": 60,
+      "expanded": 461,
+      "generated": 1293,
+      "pushed": 464
+    },
+    {
+      "case": "maze_31_seed_ok",
+      "n": 31,
+      "heuristic": "manhattan",
+      "path_len": 60,
+      "expanded": 310,
+      "generated": 897,
+      "pushed": 355
+    }
+  ],
+  "problem2": [
+    {
+      "heuristic": "zero",
+      "cost": 7,
+      "path": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          4,
+          2
+        ],
+        [
+          4,
+          3
+        ],
+        [
+          4,
+          4
+        ]
+      ],
+      "expanded": 15,
+      "generated": 46,
+      "pushed": 24
+    },
+    {
+      "heuristic": "manhattan",
+      "cost": 7,
+      "path": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          4,
+          2
+        ],
+        [
+          4,
+          3
+        ],
+        [
+          4,
+          4
+        ]
+      ],
+      "expanded": 11,
+      "generated": 31,
+      "pushed": 19
+    },
+    {
+      "heuristic": "manhattan_minus_one",
+      "cost": 7,
+      "path": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          4,
+          2
+        ],
+        [
+          4,
+          3
+        ],
+        [
+          4,
+          4
+        ]
+      ],
+      "expanded": 11,
+      "generated": 31,
+      "pushed": 19
+    }
+  ],
+  "problem3": [
+    {
+      "tree": "official",
+      "order": "left_to_right",
+      "method": "minimax",
+      "value": 5,
+      "nodes": 15,
+      "leaves": 8,
+      "prunes": 0
+    },
+    {
+      "tree": "official",
+      "order": "left_to_right",
+      "method": "alphabeta",
+      "value": 5,
+      "nodes": 14,
+      "leaves": 7,
+      "prunes": 2
+    },
+    {
+      "tree": "official",
+      "order": "left_to_right",
+      "method": "alphabeta",
+      "value": 5,
+      "nodes": 14,
+      "leaves": 7,
+      "prunes": 2
+    },
+    {
+      "tree": "official",
+      "order": "leafmax_desc",
+      "method": "alphabeta",
+      "value": 5,
+      "nodes": 15,
+      "leaves": 8,
+      "prunes": 1
+    },
+    {
+      "tree": "official",
+      "order": "leafmax_asc",
+      "method": "alphabeta",
+      "value": 5,
+      "nodes": 11,
+      "leaves": 5,
+      "prunes": 2
+    },
+    {
+      "tree": "official",
+      "order": "leafmin_desc",
+      "method": "alphabeta",
+      "value": 5,
+      "nodes": 15,
+      "leaves": 8,
+      "prunes": 1
+    },
+    {
+      "tree": "official",
+      "order": "leafmin_asc",
+      "method": "alphabeta",
+      "value": 5,
+      "nodes": 13,
+      "leaves": 6,
+      "prunes": 2
+    },
+    {
+      "tree": "random_d5_b3",
+      "order": "left_to_right",
+      "method": "minimax",
+      "value": 15,
+      "nodes": 364,
+      "leaves": 243,
+      "prunes": 0
+    },
+    {
+      "tree": "random_d5_b3",
+      "order": "left_to_right",
+      "method": "alphabeta",
+      "value": 15,
+      "nodes": 202,
+      "leaves": 119,
+      "prunes": 38
+    },
+    {
+      "tree": "random_d5_b3",
+      "order": "leafmax_desc",
+      "method": "alphabeta",
+      "value": 15,
+      "nodes": 216,
+      "leaves": 125,
+      "prunes": 36
+    },
+    {
+      "tree": "random_d5_b3",
+      "order": "leafmax_asc",
+      "method": "alphabeta",
+      "value": 15,
+      "nodes": 221,
+      "leaves": 134,
+      "prunes": 45
+    }
+  ],
+  "problem4": {
+    "matrix": {
+      "A": {
+        "A": 0,
+        "B": 12,
+        "T1": 10,
+        "T2": 4,
+        "T3": 8,
+        "T4": 8
+      },
+      "B": {
+        "A": 12,
+        "B": 0,
+        "T1": 8,
+        "T2": 8,
+        "T3": 4,
+        "T4": 10
+      },
+      "T1": {
+        "A": 10,
+        "B": 8,
+        "T1": 0,
+        "T2": 6,
+        "T3": 6,
+        "T4": 12
+      },
+      "T2": {
+        "A": 4,
+        "B": 8,
+        "T1": 6,
+        "T2": 0,
+        "T3": 6,
+        "T4": 6
+      },
+      "T3": {
+        "A": 8,
+        "B": 4,
+        "T1": 6,
+        "T2": 6,
+        "T3": 0,
+        "T4": 6
+      },
+      "T4": {
+        "A": 8,
+        "B": 10,
+        "T1": 12,
+        "T2": 6,
+        "T3": 6,
+        "T4": 0
+      }
+    },
+    "matrix_text": "        A    B   T1   T2   T3   T4\n   A    0   12   10    4    8    8\n   B   12    0    8    8    4   10\n  T1   10    8    0    6    6   12\n  T2    4    8    6    0    6    6\n  T3    8    4    6    6    0    6\n  T4    8   10   12    6    6    0",
+    "first_gains": {
+      "T1": {
+        "dist": 10,
+        "gain_A": -1
+      },
+      "T2": {
+        "dist": 4,
+        "gain_A": 2
+      },
+      "T3": {
+        "dist": 8,
+        "gain_A": -1
+      },
+      "T4": {
+        "dist": 8,
+        "gain_A": -1
+      }
+    },
+    "search_rows": [
+      {
+        "best_target": "T2",
+        "best_value": -1,
+        "nodes": 17,
+        "leaves": 12,
+        "prunes": 0,
+        "method": "minimax",
+        "order": "natural",
+        "H": 2
+      },
+      {
+        "best_target": "T2",
+        "best_value": -1,
+        "nodes": 17,
+        "leaves": 12,
+        "prunes": 0,
+        "method": "minimax",
+        "order": "reverse",
+        "H": 2
+      },
+      {
+        "best_target": "T2",
+        "best_value": -1,
+        "nodes": 17,
+        "leaves": 12,
+        "prunes": 0,
+        "method": "minimax",
+        "order": "gain_desc",
+        "H": 2
+      },
+      {
+        "best_target": "T2",
+        "best_value": -1,
+        "nodes": 17,
+        "leaves": 12,
+        "prunes": 0,
+        "method": "minimax",
+        "order": "gain_asc",
+        "H": 2
+      },
+      {
+        "best_target": "T2",
+        "best_value": -1,
+        "nodes": 13,
+        "leaves": 8,
+        "prunes": 2,
+        "method": "alphabeta",
+        "order": "natural",
+        "H": 2
+      },
+      {
+        "best_target": "T2",
+        "best_value": -1,
+        "nodes": 16,
+        "leaves": 11,
+        "prunes": 1,
+        "method": "alphabeta",
+        "order": "reverse",
+        "H": 2
+      },
+      {
+        "best_target": "T2",
+        "best_value": -1,
+        "nodes": 11,
+        "leaves": 6,
+        "prunes": 3,
+        "method": "alphabeta",
+        "order": "gain_desc",
+        "H": 2
+      },
+      {
+        "best_target": "T2",
+        "best_value": -1,
+        "nodes": 17,
+        "leaves": 12,
+        "prunes": 1,
+        "method": "alphabeta",
+        "order": "gain_asc",
+        "H": 2
+      },
+      {
+        "best_target": "T3",
+        "best_value": 3,
+        "nodes": 65,
+        "leaves": 24,
+        "prunes": 0,
+        "method": "minimax",
+        "order": "natural",
+        "H": 4
+      },
+      {
+        "best_target": "T3",
+        "best_value": 3,
+        "nodes": 65,
+        "leaves": 24,
+        "prunes": 0,
+        "method": "minimax",
+        "order": "reverse",
+        "H": 4
+      },
+      {
+        "best_target": "T3",
+        "best_value": 3,
+        "nodes": 65,
+        "leaves": 24,
+        "prunes": 0,
+        "method": "minimax",
+        "order": "gain_desc",
+        "H": 4
+      },
+      {
+        "best_target": "T3",
+        "best_value": 3,
+        "nodes": 65,
+        "leaves": 24,
+        "prunes": 0,
+        "method": "minimax",
+        "order": "gain_asc",
+        "H": 4
+      },
+      {
+        "best_target": "T3",
+        "best_value": 3,
+        "nodes": 47,
+        "leaves": 16,
+        "prunes": 12,
+        "method": "alphabeta",
+        "order": "natural",
+        "H": 4
+      },
+      {
+        "best_target": "T3",
+        "best_value": 3,
+        "nodes": 46,
+        "leaves": 16,
+        "prunes": 12,
+        "method": "alphabeta",
+        "order": "reverse",
+        "H": 4
+      },
+      {
+        "best_target": "T3",
+        "best_value": 3,
+        "nodes": 37,
+        "leaves": 12,
+        "prunes": 12,
+        "method": "alphabeta",
+        "order": "gain_desc",
+        "H": 4
+      },
+      {
+        "best_target": "T3",
+        "best_value": 3,
+        "nodes": 63,
+        "leaves": 23,
+        "prunes": 11,
+        "method": "alphabeta",
+        "order": "gain_asc",
+        "H": 4
+      }
+    ],
+    "first_moves_H2": [
+      {
+        "first": "T1",
+        "U": -4,
+        "B_reply": "T3",
+        "gain_A": -1,
+        "nodes": 4
+      },
+      {
+        "first": "T2",
+        "U": -1,
+        "B_reply": "T3",
+        "gain_A": 2,
+        "nodes": 4
+      },
+      {
+        "first": "T3",
+        "U": -2,
+        "B_reply": "T1",
+        "gain_A": -1,
+        "nodes": 4
+      },
+      {
+        "first": "T4",
+        "U": -4,
+        "B_reply": "T3",
+        "gain_A": -1,
+        "nodes": 4
+      }
+    ],
+    "first_moves_H4": [
+      {
+        "first": "T1",
+        "U": -5,
+        "B_reply": "T3",
+        "gain_A": -1,
+        "nodes": 16
+      },
+      {
+        "first": "T2",
+        "U": 1,
+        "B_reply": "T3",
+        "gain_A": 2,
+        "nodes": 16
+      },
+      {
+        "first": "T3",
+        "U": 3,
+        "B_reply": "T1",
+        "gain_A": -1,
+        "nodes": 16
+      },
+      {
+        "first": "T4",
+        "U": -7,
+        "B_reply": "T3",
+        "gain_A": -1,
+        "nodes": 16
+      }
+    ],
+    "principal_variations": {
+      "H2_best": {
+        "final_U": -1,
+        "score_a": 2,
+        "score_b": 3,
+        "moves": [
+          {
+            "player": "A",
+            "target": "T2",
+            "gain": 2,
+            "U_after": 2,
+            "backed_value": -1
+          },
+          {
+            "player": "B",
+            "target": "T3",
+            "gain": 3,
+            "U_after": -1,
+            "backed_value": -1
+          }
+        ]
+      },
+      "H4_best": {
+        "final_U": 3,
+        "score_a": -1,
+        "score_b": -4,
+        "moves": [
+          {
+            "player": "A",
+            "target": "T3",
+            "gain": -1,
+            "U_after": -1,
+            "backed_value": 3
+          },
+          {
+            "player": "B",
+            "target": "T1",
+            "gain": 1,
+            "U_after": -2,
+            "backed_value": 3
+          },
+          {
+            "player": "A",
+            "target": "T2",
+            "gain": 0,
+            "U_after": -2,
+            "backed_value": 3
+          },
+          {
+            "player": "B",
+            "target": "T4",
+            "gain": -5,
+            "U_after": 3,
+            "backed_value": 3
+          }
+        ]
+      },
+      "H4_if_T2": {
+        "final_U": 1,
+        "score_a": 5,
+        "score_b": 4,
+        "moves": [
+          {
+            "player": "A",
+            "target": "T2",
+            "gain": 2,
+            "U_after": 2
+          },
+          {
+            "player": "B",
+            "target": "T3",
+            "gain": 3,
+            "U_after": -1,
+            "backed_value": 1
+          },
+          {
+            "player": "A",
+            "target": "T1",
+            "gain": 3,
+            "U_after": 2,
+            "backed_value": 1
+          },
+          {
+            "player": "B",
+            "target": "T4",
+            "gain": 1,
+            "U_after": 1,
+            "backed_value": 1
+          }
+        ]
+      },
+      "H2_if_T3": {
+        "final_U": -2,
+        "score_a": -1,
+        "score_b": 1,
+        "moves": [
+          {
+            "player": "A",
+            "target": "T3",
+            "gain": -1,
+            "U_after": -1
+          },
+          {
+            "player": "B",
+            "target": "T1",
+            "gain": 1,
+            "U_after": -2,
+            "backed_value": -2
+          }
+        ]
+      }
+    }
+  }
+}
